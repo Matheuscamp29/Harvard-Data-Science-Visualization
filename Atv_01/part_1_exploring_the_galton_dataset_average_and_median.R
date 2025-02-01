@@ -11,11 +11,11 @@
 library(HistData)
 data(Galton)
 
-# Armazena a altura das crianças no vetor 'x'
+#armazena alturas em x
 x <- Galton$child
 
-# Calcula e imprime a média das alturas das crianças
+#clacula e imprime media de x
 mean(x)
 
-# Calcula e imprime a mediana das alturas das crianças
+#calcula e imprime mediana de x 
 median(x)

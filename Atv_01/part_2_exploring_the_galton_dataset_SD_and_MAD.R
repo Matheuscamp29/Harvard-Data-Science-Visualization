@@ -9,11 +9,11 @@
 library(HistData)
 data(Galton)
 
-# Armazena a altura das crianças no vetor 'x'
+#armazena as alturas em x
 x <- Galton$child
 
-# Calcula e imprime o desvio padrão das alturas das crianças
+#calcula o desvio padrão
 sd(x)
 
-# Calcula e imprime a mediana da diferença absoluta das alturas das crianças
+#calcula mediana das alturas
 mad(x)
